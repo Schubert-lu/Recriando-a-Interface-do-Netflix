@@ -7,7 +7,7 @@ Estou criando a Interface do Netflix com os conhecimentos adquiridos no curso da
 
 Caso tenha alguma sugestão de mudança ou ideia 💡, entre em contato comigo pelo meu Linkedin:
 
-<a href="https://www.linkedin.com/in/lucasschubertgomes/"><img src="https://user-images.githubusercontent.com/103296710/163734666-14698b78-bbe5-48af-a039-0e63bc02a2ba.png" width="30px" height="30px">
+<a href="https://www.linkedin.com/in/lucasschubertgomes/"><img src="https://user-images.githubusercontent.com/103296710/163734666-14698b78-bbe5-48af-a039-0e63bc02a2ba.png" width="30px" height="30px" target="_blank">
   
  </a>
 
