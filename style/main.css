@@ -1,0 +1,127 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preto);
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo  {
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    margin-left: 20px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+/*Deixando com o efeito bonitinho(usa o hover)*/
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/img/stranger\ things.jpg');
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 5px;
+    margin-bottom: 90px;
+}
+
+.filme-principal .titulo{
+    margin-top: 20px;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*o cursor faz com que fique com a mãozinha de seleção*/
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+}
+
+.botao i{
+    margin: 5px;
+}
+
+.container{
+    margin-left: 10%;
+}
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;    
+}
+
+.owl-carousel owl theme{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.zoom{
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0,3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-trransform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor:pointer;
+}
